@@ -67,14 +67,11 @@
 	jQuery.noConflict();
 	setHomeBannerHeight();
 	centerHomeBannerText();
-	setSlideNav();
-	setHeaderBackground();
 
 	//Resize events
 	jQuery(window).smartresize(function(){
 		setHomeBannerHeight();
 		centerHomeBannerText();
-		setHeaderBackground();
 	});
 
 
@@ -90,7 +87,6 @@
 	})
 
 	jQuery(window).scroll( function() {
-	   setHeaderBackground();
 	});
 
 })();

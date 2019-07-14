@@ -75,6 +75,10 @@ a{
 	transition: all .4s;
 }
 
+i {
+	margin-bottom: .5em;
+}
+
 a:hover {
 	color: #475B6F;
 	text-decoration: none;
@@ -158,7 +162,7 @@ h1, h2, h3, h4, h5, h6{
 
 #header .logo, #header .toggleDrawer{
 	font-family: 'Arial';
-	color: white;
+	color: #BA6C18;
 }
 
 #header .slogan{
@@ -167,12 +171,12 @@ h1, h2, h3, h4, h5, h6{
 	line-height: 1em;
 	/*font-family: 'Nixie One';*/
 	font-family: 'Arial';
-	color: white;
+	color: #BA6C18;
 }
 
 #header .secondary-slogan{
-	font-size: 1.6em;
-	color: rgba(255,255,255,.5);
+	font-size: 2em;
+	color: #BA6C18;
 	line-height: 1em;
 	font-family: 'Alegreya SC';
 }
@@ -256,17 +260,6 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 30px;
 }
 
-#header {
-	background-image: url(../images/header-bg.jpg);
-}
-#services {
-	background-image: url(../images/traffic.jpg);
-	color: white;
-}
-#parallax {
-	background-image: url(../images/rowing.jpg);
-	color: white;
-}
 #parallax h1{
 	margin-bottom: 60px;
 	color: white;
